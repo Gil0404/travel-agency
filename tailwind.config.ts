@@ -1,3 +1,4 @@
+import { title } from "process";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -11,6 +12,11 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+
+      fontFamily: {
+        title: ["Archivo", "sans-serif"],
+        content: ["Tenor Sans", "sans-serif"],
       },
     },
   },
